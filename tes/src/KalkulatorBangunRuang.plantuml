@@ -1,0 +1,20 @@
+@startuml
+
+package "latihan_pbo.latihan_5" {
+
+class KalkulatorBangunRuang {
+
+    - input : Scanner
+
+    + main(args : String[]) : void
+    + inputPositif(pesan : String) : double
+
+    + hitungKubus() : void
+    + hitungBalok() : void
+    + hitungTabung() : void
+    + hitungBola() : void
+}
+
+}
+
+@enduml
