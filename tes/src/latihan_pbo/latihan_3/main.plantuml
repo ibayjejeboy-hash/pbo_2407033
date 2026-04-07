@@ -1,0 +1,25 @@
+@startuml
+
+package "latihan_pbo.latihan_3" {
+
+class Cafe {
+    - namaMenu : String
+    - bahan1 : String
+    - bahan2 : String
+    - bahan3 : String
+
+    + setNamaMenu(namaMenu : String)
+    + getNamaMenu() : String
+    + setResep()
+    + tampilResep()
+}
+
+class Main {
+    + main(args : String[])
+}
+
+Main --> Cafe : menggunakan
+
+}
+
+@enduml
